@@ -1,0 +1,525 @@
+** {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+ }
+html,body {
+height: 100%;
+width: 100%;
+}
+
+body{
+    overflow-x: hidden;
+     position: relative;
+     user-select: none;
+     /* background-color: rgba(4, 38, 141, 0.943); */
+}
+
+#part1{
+    width:100vw;
+    height:150vh;
+    /* background-color: royalblue; */
+   background-image: url("https://static.wixstatic.com/media/0784b1_24f5a427fc7c476096ae8d9662cd54fe~mv2.jpg/v1/fill/w_1674,h_1418,al_c,q_90,usm_1.20_1.00_0.01,enc_auto/0784b1_24f5a427fc7c476096ae8d9662cd54fe~mv2.jpg");
+   background-position:center;
+  background-size: cover;
+  position: relative;
+   display: block;
+   transform: translateX(-15px);
+   
+}
+
+#part1 nav{
+    width: 100%;
+    height: 80px;
+    background-color:#242D9A;
+    transform: translateY(-30px);
+    padding: 10px;
+}
+
+#part1 nav h1{
+    font-size: 30px;
+    font-family:cursive;
+    color: white;
+    padding: 8px 15px;
+}
+
+#center{
+  text-align: center;
+  margin-top: 12%;
+  font-family: gilroy;
+  line-height:0.7;
+}
+
+#center h1{
+    color: white;
+    font-size: 80px;
+   
+}
+
+#center h4{
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+#input-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+   margin-top: 4%;
+}
+
+#input-box input{
+    padding: 14px 40px;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    color: black;
+}
+
+
+#input-box  #btn{
+    background-color: orangered;
+    padding: 14px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#part1 #btn:active{
+    scale: 0.9;
+ }
+
+#input-box  #btn button{
+   background-color: transparent;
+   border: none;
+   font-size: 20px;
+   cursor: pointer;
+}
+
+
+/* part2 */
+
+#part2{
+    width:100vw;
+    height: 130vh;
+    color: black;
+    font-family: gilroy;
+    position: relative;
+}
+
+#part2 h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#part2 #boxes{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transform: translateX(-15px);
+    position: relative;
+    margin-top: 7%;
+}
+
+  #boxes .box{
+    width: 32%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0px;
+ }
+
+ #boxes .box .imgbox{
+    width: 90%;
+    height: 50%;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+ }
+
+ .box .imgbox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+ }
+
+ .imgbox img:hover{
+    scale: 1.1;
+    transition:0.9s ease;
+ }
+
+ .box .contentbox{
+    width: 100%;
+    height: 50%; 
+ }
+
+
+ .box .contentbox h3{
+    font-size: 22px;
+    padding: 0px 24px;
+ }
+ 
+ .box .contentbox p{
+    padding: 0px 24px;
+    font-size: 18px;
+    font-weight:300 ;
+    color: gray;
+    
+ }
+
+  #part2 #btn{
+    width: 100%;
+    height: 25%;
+    display: flex;
+  align-items: center;
+    justify-content: center;
+ }
+
+ #part2 button{
+    padding: 12px 30px;
+    font-size: 22px;
+    border-radius: 50px;
+    border: none;
+    background-color: royalblue;
+    color: white;
+    cursor: pointer;
+ }
+ 
+ #part2 button:active{
+    scale: 0.9;
+ }
+
+ #part2 button:hover{
+    background-color: rgb(43, 81, 193);
+    color: white;
+ }
+ 
+
+ /* #part3 */
+
+ #part3{
+    width:100vw;
+    height: 130vh;
+    color: black;
+    font-family: gilroy;
+    position: relative;
+    transform: translateY(-10%);
+    
+ }
+
+
+ #part3 .box1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ }
+
+ #part3 .box1 h1{
+    font-size: 40px;
+    font-style: italic;
+ }
+
+ #part3 .box1 h4{
+    font-size: 20px;
+  font-weight: 400;
+  line-height: 0.1;
+ }
+
+ #part3 .box2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:rgb(94, 7, 24);
+ }
+
+ #part3 .box2 h1{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+ }
+
+ #part3 .box2 button{
+ padding: 12px 40px;
+ font-size: 22px;
+ border-radius: 50px;
+ border: none;
+ cursor: pointer;
+ }
+
+ #part3 button:active{
+    scale: 0.9;
+ }
+
+ #part3 .box2 button:hover{
+    background-color: rgb(157, 144, 144);
+ }
+
+ #footer{
+    width: 95vw;
+    height:15%;
+    background-color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     transform: translateY(-50px);
+    font-weight: gilroy;
+    margin-left: 20px;
+ }
+
+ #footer h4{
+    color: gray;
+    font-weight: 200;
+    font-size: 20px;
+ }
+
+ #footer h1{
+    font-family: cursive;
+ }
+
+ #footer #box1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+
+
+
+ #footer #box1 #line{
+    width: 1px;
+    height: 50px;
+    background-color: gray;
+ }
+
+
+ #footer #box2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+
+ #footer #box2 #line{
+    width: 1px;
+    height: 50px;
+    background-color: gray;
+ }
+
+/* sign up */
+#sign-up{
+    width: 100%;
+    height: 110%;
+    background-color: white;
+    position: absolute;
+    color: black;
+    overflow: hidden;
+     display: none; 
+    z-index: 9999; 
+   transform: translateX(-8px);
+}
+
+
+#sign-up nav {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#sign-up nav #close{
+    font-weight: 300;
+}
+
+
+#sign-up nav h1 {
+  font-size: 30px;
+  font-family: cursive;
+  padding: 0 20px;
+}
+
+#sign-up  i{
+    cursor: pointer;
+}
+
+#sign-up #heading{
+    width:100%;
+    height: 160px;
+    font-family: gilroy;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 0.1;
+}
+
+#sign-up #heading h1{
+font-size: 60px;
+}
+
+#sign-up #heading h4{
+    font-size: 20px;
+    font-weight: 300;
+    }
+
+    #sign-up #heading span{
+       color: royalblue;
+        }
+
+#sign-up #formbox{
+    width: 100%;
+    height: 430px;
+   display: flex;
+
+}
+
+
+#sign-up #formbox #box1{
+    width: 50%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    color: black;
+}
+
+#formbox #box1 input{
+    width: 60%;
+    background-color: transparent;
+    border: none;
+    color:black;
+    outline: none;
+    border-bottom: 1px solid black;
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#formbox #box1 button{
+    background-color: transparent;
+    padding: 12px 22px;
+    font-size: 15px;
+    border-radius: 50px;
+    border:1px solid royalblue;
+    color: royalblue;
+    font-weight: 600;
+}
+
+#formbox #box1 button:hover{
+    background-color: royalblue;
+    color: white;
+}
+
+
+
+#sign-up #formbox #box2{
+    width: 50%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     gap: 30px;
+   
+}
+
+#box2 #google{
+   width: 50%;
+   height: 50px;
+    background-color: royalblue;
+    position: relative;
+    display: flex;
+    align-items: center;
+  gap: 40px;
+    padding: 1.2px 1px;
+    font-family: gilroy;
+    margin-top: 20%;
+}
+
+
+#box2 #google h1{
+font-size: 15px;
+color: white;
+font-weight: 400;
+}
+
+
+
+#box2 #google img{
+width: 60px;
+height: 100%;
+object-fit: cover;
+object-fit: center;
+}
+
+
+#box2 #facebook{
+    width: 50%;
+    height: 50px;
+     background-color: rgb(80, 80, 164);
+     position: relative;
+     display: flex;
+     align-items: center;
+   gap: 40px;
+     padding: 1.2px 1px;
+     font-family: gilroy;
+}
+
+
+#box2 #facebook h1{
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+    }
+
+
+    #box2 #facebook img{
+        width: 60px;
+        height: 100%;
+        object-fit: cover;
+        object-fit: center;
+        }
+    
+        #sign-up p{
+            width: 60%;
+            text-align: center;
+            margin-left: 19%;
+            font-family: gilroy;
+            font-size: 13px;
+            font-weight: 400;
+            color: gray;
+            line-height:1.5;
+        }
+
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+
+
+
